@@ -1,0 +1,1206 @@
+{
+  "pbtResults": {
+    "2.4 Escribir prueba de propiedad para shuffle": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802310279
+    },
+    "2.2 Escribir prueba de propiedad para añadir pistas": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802323643
+    },
+    "2.3 Escribir prueba de propiedad para skip": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802327683
+    },
+    "2.5 Escribir prueba de propiedad para remove": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802358261
+    },
+    "3.2 Escribir prueba de propiedad para la rampa de volumen": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802423189
+    },
+    "3.6 Escribir prueba de propiedad para la tasa de bits": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802484986
+    },
+    "3.5 Escribir prueba de propiedad para la paginación": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802496180
+    },
+    "3.7 Escribir prueba de propiedad para las sugerencias de autocompletado": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802509565
+    },
+    "3.4 Escribir prueba de propiedad para formato de duración, /nowplaying y modo de repetición": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802512028
+    },
+    "3.3 Escribir prueba de propiedad para los botones de volumen": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802523609
+    },
+    "4.2 Escribir prueba de propiedad para la clasificación de entradas": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802596406
+    },
+    "4.3 Escribir prueba de propiedad para la importación de listas de YouTube": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802606858
+    },
+    "4.4 Escribir prueba de propiedad para fallos de resolución": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802607204
+    },
+    "5.2 Escribir prueba de propiedad para la ida y vuelta del serializador": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802615197
+    },
+    "5.3 Escribir prueba de propiedad para JSON inválido": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802631248
+    },
+    "5.4 Escribir prueba de propiedad para la validación de guardado": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802670300
+    },
+    "8.3 Escribir prueba de propiedad para el límite de uso": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802690721
+    },
+    "8.2 Escribir prueba de propiedad para la decisión de permisos": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802709208
+    },
+    "6.2 Escribir prueba de propiedad para la persistencia tras reinicio": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802709674
+    },
+    "9.2 Escribir prueba de propiedad para la carga de configuración": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802718866
+    },
+    "9.3 Escribir prueba de propiedad para la redacción de secretos": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802849038
+    },
+    "9.4 Escribir prueba de propiedad para el formato de registro": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802859967
+    },
+    "9.5 Escribir prueba de propiedad para el catálogo de idioma": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802862058
+    },
+    "10.4 Escribir prueba de propiedad para la reconexión": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802885609
+    },
+    "10.2 Escribir prueba de propiedad para la máquina de desconexión": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802886118
+    },
+    "11.2 Escribir prueba de propiedad para los reintentos de descarga": {
+      "status": "passed",
+      "lastRunTimestamp": 1794802958072
+    },
+    "6.4 Escribir prueba de propiedad para guardar listas": {
+      "status": "passed",
+      "lastRunTimestamp": 1794803440687
+    },
+    "6.5 Escribir prueba de propiedad para cargar listas": {
+      "status": "passed",
+      "lastRunTimestamp": 1794803456626
+    },
+    "6.6 Escribir prueba de propiedad para listar listas": {
+      "status": "passed",
+      "lastRunTimestamp": 1794803468025
+    },
+    "6.9 Escribir prueba de propiedad para el Rol_DJ": {
+      "status": "passed",
+      "lastRunTimestamp": 1794803645219
+    },
+    "13.2 Escribir prueba de propiedad para pistas fallidas": {
+      "status": "passed",
+      "lastRunTimestamp": 1794803645410
+    },
+    "6.7 Escribir prueba de propiedad para acceso por nombre y creador": {
+      "status": "passed",
+      "lastRunTimestamp": 1794803646205
+    },
+    "6.8 Escribir prueba de propiedad para el volumen": {
+      "status": "passed",
+      "lastRunTimestamp": 1794803650733
+    },
+    "14.2 Escribir prueba de propiedad para el Mensaje_de_Reproducción": {
+      "status": "passed",
+      "lastRunTimestamp": 1794803693176
+    },
+    "13.4 Escribir prueba de propiedad para el aislamiento entre Servidores": {
+      "status": "passed",
+      "lastRunTimestamp": 1794803795662
+    },
+    "15.2 Escribir prueba de propiedad para errores no previstos": {
+      "status": "passed",
+      "lastRunTimestamp": 1794803966849
+    }
+  },
+  "executionHistory": {
+    "1.1 Crear la estructura del proyecto y los tipos base": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801462385
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801469477
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801782123
+      }
+    ],
+    "2.1 Implementar la clase `Queue`": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801463235
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801786074
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801960282
+      }
+    ],
+    "3.1 Implementar utilidades puras": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801463425
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801786124
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801960336
+      }
+    ],
+    "4.1 Implementar `classifyInput` y `Resolver` con yt-dlp": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801463513
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801786307
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801960430
+      }
+    ],
+    "5.1 Implementar `PlaylistSerializer` y `validatePlaylistSave`": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801463598
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801787094
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801961144
+      }
+    ],
+    "6.1 Implementar `Store` sobre SQLite": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801463675
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802049052
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802202602
+      }
+    ],
+    "6.3 Implementar servicios de `/playlist`, `/volume` y `/dj`": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801463771
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802914894
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803369871
+      }
+    ],
+    "7. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801463848
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794804715599
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794804835171
+      }
+    ],
+    "8.1 Implementar `canExecute`, `RESTRICTED` y `RateLimiter`": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801463937
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801787507
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801961633
+      }
+    ],
+    "9.1 Implementar `loadConfig`, `redactSecrets`, `formatLogEntry`, `Logger` e `I18n`": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801464024
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801967885
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802044853
+      }
+    ],
+    "10.1 Implementar `IdleTimerStateMachine`": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801464124
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801968734
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802044810
+      }
+    ],
+    "10.3 Implementar la política de reconexión de voz": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801464224
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801969109
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802044908
+      }
+    ],
+    "11.1 Implementar `AudioPipeline` con ffmpeg": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801464312
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802049101
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802202141
+      }
+    ],
+    "12. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801464392
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794804835953
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794805026236
+      }
+    ],
+    "13.1 Implementar `GuildPlayer`": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801464496
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802914986
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803369669
+      }
+    ],
+    "13.3 Implementar `PlayerManager`": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801464581
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803376554
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803572108
+      }
+    ],
+    "14.1 Implementar `NowPlayingMessage`": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801464670
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803376608
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803574754
+      }
+    ],
+    "15.1 Implementar `Guard` e `InteractionRouter`": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801464747
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803718495
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803881385
+      }
+    ],
+    "15.3 Implementar los manejadores de comandos": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801464841
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803886075
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794804166228
+      }
+    ],
+    "15.4 Implementar manejadores de botones y autocompletado": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801464922
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794804168680
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794804325141
+      }
+    ],
+    "15.5 Implementar `Bootstrap`": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801464995
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794804327792
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794804597201
+      }
+    ],
+    "16. Final checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801465055
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794805030920
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794805118870
+      }
+    ],
+    "1. Configurar el proyecto y los tipos compartidos": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801782170
+      }
+    ],
+    "2. Implementar la Cola": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801960392
+      }
+    ],
+    "3. Implementar utilidades puras de volumen, formato y paginación": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801960465
+      }
+    ],
+    "4. Implementar el Resolvedor": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801960525
+      }
+    ],
+    "5. Implementar el serializador y las reglas de listas": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801961179
+      }
+    ],
+    "8. Implementar permisos y límite de uso": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794801961673
+      }
+    ],
+    "9. Implementar configuración, registro e i18n": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802044942
+      }
+    ],
+    "11. Implementar el pipeline de audio": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802202189
+      }
+    ],
+    "2.2 Escribir prueba de propiedad para añadir pistas": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802227012
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802258463
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802437928
+      }
+    ],
+    "2.3 Escribir prueba de propiedad para skip": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802227080
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802264051
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802438001
+      }
+    ],
+    "2.4 Escribir prueba de propiedad para shuffle": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802227216
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802264113
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802438075
+      }
+    ],
+    "2.5 Escribir prueba de propiedad para remove": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802227722
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802264307
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802438284
+      }
+    ],
+    "3.2 Escribir prueba de propiedad para la rampa de volumen": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802228564
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802264645
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802438840
+      }
+    ],
+    "3.3 Escribir prueba de propiedad para los botones de volumen": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802229072
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802442740
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802534532
+      }
+    ],
+    "3.4 Escribir prueba de propiedad para formato de duración, /nowplaying y modo de repetición": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802229868
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802442669
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802535336
+      }
+    ],
+    "3.5 Escribir prueba de propiedad para la paginación": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802230686
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802443039
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802535925
+      }
+    ],
+    "3.6 Escribir prueba de propiedad para la tasa de bits": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802231220
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802443840
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802536729
+      }
+    ],
+    "3.7 Escribir prueba de propiedad para las sugerencias de autocompletado": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802232017
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802444339
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802537153
+      }
+    ],
+    "4.2 Escribir prueba de propiedad para la clasificación de entradas": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802232816
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802542474
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802640286
+      }
+    ],
+    "4.3 Escribir prueba de propiedad para la importación de listas de YouTube": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802233366
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802542563
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802641075
+      }
+    ],
+    "4.4 Escribir prueba de propiedad para fallos de resolución": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802234162
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802542634
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802641859
+      }
+    ],
+    "5.2 Escribir prueba de propiedad para la ida y vuelta del serializador": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802235918
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802543382
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802642658
+      }
+    ],
+    "5.3 Escribir prueba de propiedad para JSON inválido": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802236060
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802543889
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802643068
+      }
+    ],
+    "5.4 Escribir prueba de propiedad para la validación de guardado": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802236304
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802645746
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802809275
+      }
+    ],
+    "6.2 Escribir prueba de propiedad para la persistencia tras reinicio": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802237082
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802646530
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802808497
+      }
+    ],
+    "8.2 Escribir prueba de propiedad para la decisión de permisos": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802237648
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802647333
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802807134
+      }
+    ],
+    "8.3 Escribir prueba de propiedad para el límite de uso": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802241876
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802648133
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802807915
+      }
+    ],
+    "9.4 Escribir prueba de propiedad para el formato de registro": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802242011
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802817057
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802909464
+      }
+    ],
+    "9.2 Escribir prueba de propiedad para la carga de configuración": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802242085
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802648666
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802809842
+      }
+    ],
+    "10.2 Escribir prueba de propiedad para la máquina de desconexión": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802242148
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802818391
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802910059
+      }
+    ],
+    "9.3 Escribir prueba de propiedad para la redacción de secretos": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802242222
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802816250
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802908721
+      }
+    ],
+    "9.5 Escribir prueba de propiedad para el catálogo de idioma": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802242272
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802817603
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802907370
+      }
+    ],
+    "10.4 Escribir prueba de propiedad para la reconexión": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802242686
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802818932
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802908157
+      }
+    ],
+    "11.2 Escribir prueba de propiedad para los reintentos de descarga": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802243238
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802915071
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803369739
+      }
+    ],
+    "11.3 Escribir pruebas de audio con muestras": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802243864
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802915556
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803370265
+      }
+    ],
+    "10. Implementar desconexión automática y reconexión": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794802908214
+      }
+    ],
+    "6. Implementar el Almacén y los servicios de listas, volumen y Rol_DJ": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803369932
+      }
+    ],
+    "6.4 Escribir prueba de propiedad para guardar listas": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803376496
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803572824
+      }
+    ],
+    "6.5 Escribir prueba de propiedad para cargar listas": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803376671
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803573618
+      }
+    ],
+    "6.6 Escribir prueba de propiedad para listar listas": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803377141
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803574126
+      }
+    ],
+    "13. Implementar el Reproductor por Servidor": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803572187
+      }
+    ],
+    "14. Implementar el Mensaje_de_Reproducción": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803574810
+      }
+    ],
+    "6.7 Escribir prueba de propiedad para acceso por nombre y creador": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803579211
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803709675
+      }
+    ],
+    "6.8 Escribir prueba de propiedad para el volumen": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803579270
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803710445
+      }
+    ],
+    "6.9 Escribir prueba de propiedad para el Rol_DJ": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803579467
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803711240
+      }
+    ],
+    "13.2 Escribir prueba de propiedad para pistas fallidas": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803580264
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803712033
+      }
+    ],
+    "14.2 Escribir prueba de propiedad para el Mensaje_de_Reproducción": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803580848
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803712567
+      }
+    ],
+    "13.4 Escribir prueba de propiedad para el aislamiento entre Servidores": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803718616
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803881481
+      }
+    ],
+    "15.2 Escribir prueba de propiedad para errores no previstos": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794803886171
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794804165750
+      }
+    ],
+    "15. Implementar la capa de Discord y conectar todo": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794804597643
+      }
+    ],
+    "15.6 Escribir pruebas unitarias y de integración de la capa de Discord": [
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794804604796
+      },
+      {
+        "executionId": "2779f674-81ae-4abc-a09b-35202128a36c",
+        "chatSessionId": "sess_c839edcd-8712-4cc9-94a8-43bb72f5261b",
+        "timestamp": 1794804715403
+      }
+    ]
+  }
+}
