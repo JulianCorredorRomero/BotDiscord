@@ -1,8 +1,25 @@
 import { loadConfigOrExit } from './core/config.js';
+import { spawnSync } from 'node:child_process';
 import { createRuntime, startBot, buildInviteUrl } from './bootstrap.js';
+
+/** Comprueba que un ejecutable externo existe; si no, explica cómo arreglarlo y termina. */
+function requireTool(name: string, bin: string, versionArg: string, envVar: string): void {
+  const r = spawnSync(bin, [versionArg], { stdio: 'ignore', windowsHide: true });
+  if (r.error || r.status !== 0) {
+    process.stderr.write(
+      `No se encontró ${name} (comando: ${bin}).\n` +
+        `Instálalo o indica su ruta con la variable ${envVar}. En Windows, si acabas de instalarlo, `+
+        `cierra y vuelve a abrir la terminal (o el editor) para que se actualice el PATH.\n`,
+    );
+    process.exit(1);
+  }
+}
 
 // Sin variables obligatorias el proceso termina aquí (código 1) sin conectar a Discord.
 const config = loadConfigOrExit(process.env);
+
+requireTool('yt-dlp', process.env['YTDLP_PATH'] || 'yt-dlp', '--version', 'YTDLP_PATH');
+requireTool('ffmpeg', process.env['FFMPEG_PATH'] || 'ffmpeg', '-version', 'FFMPEG_PATH');
 
 async function main(): Promise<void> {
   const runtime = createRuntime(config, process.env);

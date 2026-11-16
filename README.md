@@ -57,6 +57,16 @@ Al arrancar, el bot inicia sesión y registra los slash commands. Si el registro
 registro con la causa y reintenta hasta 3 veces con 10 s de intervalo. `Ctrl+C` (SIGINT) o SIGTERM
 detienen los reproductores, cierran el almacén y desconectan el cliente.
 
+### Inicio rápido en Windows
+
+`iniciar-bot.ps1` recarga el `PATH` (útil si acabas de instalar `ffmpeg` o `yt-dlp` con la terminal abierta), te pide el token sin guardarlo y arranca el bot:
+
+``powershell
+powershell -ExecutionPolicy Bypass -File .\iniciar-bot.ps1
+``
+
+Al arrancar, el bot comprueba que `yt-dlp` y `ffmpeg` existen. Si falta alguno, termina con un mensaje que lo indica.
+
 ### Pruebas
 
 ```bash
