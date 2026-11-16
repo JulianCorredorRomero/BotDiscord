@@ -59,13 +59,14 @@ detienen los reproductores, cierran el almacén y desconectan el cliente.
 
 ### Inicio rápido en Windows
 
-`iniciar-bot.ps1` recarga el `PATH` (útil si acabas de instalar `ffmpeg` o `yt-dlp` con la terminal abierta), te pide el token sin guardarlo y arranca el bot:
+Doble clic en **`Iniciar-Bot.bat`**. El script:
 
-``powershell
-powershell -ExecutionPolicy Bypass -File .\iniciar-bot.ps1
-``
+- recarga el `PATH` e instala `yt-dlp` o `ffmpeg` con `winget` si faltan;
+- instala las dependencias y compila si hace falta;
+- pide el token solo la primera vez, comprueba que Discord lo acepta y lo guarda cifrado para tu usuario de Windows en `%APPDATA%\BotDiscord\token.dat` (fuera del proyecto, nunca se sube a GitHub);
+- arranca el bot. Cierra la ventana para detenerlo.
 
-Al arrancar, el bot comprueba que `yt-dlp` y `ffmpeg` existen. Si falta alguno, termina con un mensaje que lo indica.
+Si cambias el token en el Portal, usa **`Cambiar-Token.bat`**.
 
 ### Pruebas
 
