@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { FakeClock } from '../core/clock.js';
-import { buildEncodeArgs, buildDecodeFilter, buildLimiterFilter } from './ffmpegArgs.js';
+import { buildEncodeArgs, buildDecodeFilter, buildLimiterFilter, LIMITER_LINEAR } from './ffmpegArgs.js';
 import { PcmGainProcessor } from './pcmTransformer.js';
 import { withDownloadRetries } from './retry.js';
 
@@ -79,7 +79,7 @@ describe('ffmpegArgs', () => {
   it('usa loudnorm -16, fundido 500 ms y limitador -1 dBTP', () => {
     expect(buildDecodeFilter()).toContain('I=-16');
     expect(buildDecodeFilter()).toContain('afade=t=in:st=0:d=0.5');
-    expect(buildLimiterFilter()).toContain('limit=0.891251');
+    expect(buildLimiterFilter()).toContain('limit=' + LIMITER_LINEAR.toFixed(6));
   });
   it('tasa Opus = min(96, máximo del canal)', () => {
     expect(buildEncodeArgs(128)).toContain('96k');

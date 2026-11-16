@@ -5,6 +5,7 @@ import {
   buildEncodeArgs,
   buildLimiterFilter,
   LIMIT_LINEAR,
+  LIMITER_LINEAR,
   TARGET_LUFS,
   TRUE_PEAK_DBTP,
 } from '../../src/audio/ffmpegArgs.js';
@@ -144,7 +145,7 @@ describe('Argumentos de ffmpeg (Req 5.1, 5.2, 5.3)', () => {
 
   it('la etapa de codificación aplica un limitador a -1 dBTP con sobremuestreo', () => {
     expect(LIMIT_LINEAR).toBeCloseTo(0.891251, 5);
-    expect(buildLimiterFilter()).toContain('alimiter=limit=0.891251');
+    expect(buildLimiterFilter()).toContain('alimiter=limit=' + LIMITER_LINEAR.toFixed(6));
     expect(buildLimiterFilter()).toContain('aresample=192000');
     expect(buildEncodeArgs(128)).toContain(buildLimiterFilter());
   });
@@ -229,7 +230,7 @@ describe.skipIf(!ffmpegAvailable)('Audio real con ffmpeg (Req 5.1, 5.2, 5.3)', (
         return;
       }
       const { truePeak } = measure(limited);
-      expect(truePeak).toBeLessThanOrEqual(TRUE_PEAK_DBTP + 0.1);
+      expect(truePeak).toBeLessThanOrEqual(TRUE_PEAK_DBTP);
     });
   }
 

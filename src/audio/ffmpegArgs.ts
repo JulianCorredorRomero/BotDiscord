@@ -8,6 +8,13 @@ export const FADE_IN_SEC = 0.5;
 /** -1 dBFS en escala lineal. */
 export const LIMIT_LINEAR = Math.pow(10, TRUE_PEAK_DBTP / 20);
 
+/**
+ * Techo interno del limitador. Se deja 0,5 dB de margen bajo -1 dBTP porque al volver
+ * de 192 kHz a 48 kHz el remuestreo añade un pequeño sobrepico (medido: -0,8 dBTP con techo de -1).
+ */
+export const LIMITER_CEILING_DBFS = TRUE_PEAK_DBTP - 0.5;
+export const LIMITER_LINEAR = Math.pow(10, LIMITER_CEILING_DBFS / 20);
+
 /** Etapa 1: loudnorm (-16 LUFS) → fundido de entrada de 500 ms. */
 export function buildDecodeFilter(): string {
   return `loudnorm=I=${TARGET_LUFS}:TP=${TRUE_PEAK_DBTP}:LRA=11,afade=t=in:st=0:d=${FADE_IN_SEC}`;
@@ -15,7 +22,7 @@ export function buildDecodeFilter(): string {
 
 /** Etapa 2 (tras volumen y fundido de salida en PCM): limitador a -1 dBTP con sobremuestreo. */
 export function buildLimiterFilter(): string {
-  return `aresample=192000,alimiter=limit=${LIMIT_LINEAR.toFixed(6)}:level=disabled,aresample=${SAMPLE_RATE}`;
+  return `aresample=192000,alimiter=limit=${LIMITER_LINEAR.toFixed(6)}:level=disabled,aresample=${SAMPLE_RATE}`;
 }
 
 /** ffmpeg: entrada arbitraria (stdin) → PCM s16le normalizado. */
