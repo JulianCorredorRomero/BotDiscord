@@ -20,7 +20,8 @@ export function loadConfig(
   if (missing.length > 0) return err({ missing });
   const discordToken = env['DISCORD_TOKEN'] as string;
   const clientId = env['DISCORD_CLIENT_ID'] as string;
-  const secrets = required.map((n) => env[n] as string);
+  // Solo el token es secreto; el Client ID es público (aparece en el enlace de invitación).
+  const secrets = [discordToken];
   return ok({ discordToken, clientId, secrets });
 }
 
