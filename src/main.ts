@@ -56,3 +56,10 @@ process.on('unhandledRejection', (reason) => {
   for (const s of config.secrets) if (s) out = out.split(s).join('');
   process.stderr.write(`unhandledRejection: ${out}\n`);
 });
+
+// Último recurso: un error imprevisto en un flujo de audio no debe apagar el bot para todos.
+process.on('uncaughtException', (error) => {
+  let out = error instanceof Error ? `${error.name}: ${error.message}` : String(error);
+  for (const s of config.secrets) if (s) out = out.split(s).join('');
+  process.stderr.write(`Error no capturado (el bot sigue funcionando): ${out}\n`);
+});

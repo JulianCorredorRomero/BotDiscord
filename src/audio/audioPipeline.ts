@@ -141,7 +141,11 @@ export class AudioPipeline {
     };
   }
 
-  /** yt-dlp → stdout. Resuelve con el primer dato recibido; rechaza si termina sin datos o con error. */
+  /**
+   * yt-dlp → stdout. Resuelve con el primer dato recibido; rechaza si termina sin datos o con error.
+   * Un fallo a mitad de la descarga (p. ej. YouTube corta la conexión) se emite como error del flujo,
+   * que `build` convierte en fallo de la Pista: se avisa y se pasa a la siguiente, sin tumbar el proceso.
+   */
   private openWithYtDlp(url: string): Promise<Readable> {
     return new Promise((resolve, reject) => {
       const p = this.spawn(this.opts.ytDlpPath ?? 'yt-dlp', [
@@ -153,35 +157,48 @@ export class AudioPipeline {
         return;
       }
       let settled = false;
+      let killedByUs = false;
+      let stderrTail = '';
+      p.stderr?.on('data', (d: Buffer) => {
+        stderrTail = (stderrTail + d.toString()).slice(-1000);
+      });
+      p.stderr?.on('error', () => undefined);
+      stdout.on('error', () => undefined);
+      p.stdin?.on('error', () => undefined);
+
       const pass = new PassThrough();
-      p.on('error', (e) => {
+      // Siempre hay un oyente: un error tardío nunca debe convertirse en excepción no capturada.
+      pass.on('error', () => undefined);
+
+      const failWith = (e: Error) => {
         if (!settled) {
           settled = true;
           reject(e);
-        } else pass.destroy(e);
-      });
-      p.on('close', (code) => {
-        if (code !== 0 && code !== null) {
-          const e = new Error(`yt-dlp terminó con código ${code}`);
-          if (!settled) {
-            settled = true;
-            reject(e);
-          } else pass.destroy(e);
+        } else if (!pass.destroyed) {
+          pass.destroy(e);
         }
+      };
+      p.on('error', (e) => failWith(e));
+      p.on('close', (code) => {
+        if (killedByUs || code === 0 || code === null) {
+          if (!settled) failWith(new Error('yt-dlp no produjo datos'));
+          return;
+        }
+        const detalle = stderrTail.trim().split(/\r?\n/).filter(Boolean).pop() ?? '';
+        failWith(new Error(`yt-dlp terminó con código ${code}${detalle ? `: ${detalle}` : ''}`));
       });
       stdout.once('data', (first: Buffer) => {
         if (settled) return;
         settled = true;
         pass.write(first);
         stdout.pipe(pass);
-        pass.on('close', () => p.kill('SIGKILL'));
+        pass.on('close', () => {
+          if (p.exitCode === null) {
+            killedByUs = true;
+            p.kill('SIGKILL');
+          }
+        });
         resolve(pass);
-      });
-      stdout.once('end', () => {
-        if (!settled) {
-          settled = true;
-          reject(new Error('yt-dlp no produjo datos'));
-        }
       });
     });
   }
